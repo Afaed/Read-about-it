@@ -1,8 +1,7 @@
 //hold get me, mutations, login_user and the rest of the mutations. Cehck the utils in queries
-
 import { gql } from '@apollo/client';
 
-export const QUERY_GET_ME = gql`
+export const GET_ME = gql`
 {
     me {
         _id
